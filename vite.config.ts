@@ -12,5 +12,8 @@ export default defineConfig({
       },
     }),
     tsconfigPaths(),
+    remix({
+      ssr: false,
+    }),
   ],
 });
